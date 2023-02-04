@@ -8,6 +8,10 @@ function App() {
         <h1>Devorium</h1>
       </header>
       <Validation />
+      <footer>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, debitis.</p>
+      </footer>
+
     </div>
   );
 }
