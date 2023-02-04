@@ -1,20 +1,18 @@
 import React from "react";
 import Validation from "./Validation";
 
-
-function App () {
-  
-
+function App() {
   return (
     <div>
-        <Validation/>
+      <header>
+        <h1>Devorium</h1>
+      </header>
+      <Validation />
     </div>
-  )
+  );
 }
 
-
 export default App;
-
 
 // function ControlledForm() {
 //   const [data, setData] = useState({
@@ -25,13 +23,13 @@ export default App;
 //   const handleChange = (e)=>{
 //        const name = e.target.name;
 //        const value = e.target.value;
-//        const phone = e.target.value; 
+//        const phone = e.target.value;
 //        console.log(name,value);
 //        setData((prev)=>{
 //          return {
-//            ...prev,[name]:value 
+//            ...prev,[name]:value
 //          }
-//        }) 
+//        })
 //   }
 
 // return (
@@ -50,7 +48,7 @@ export default App;
 //          <br />
 //          <br />
 //          <input type="submit" value="Submit" />
-         
+
 //      </form>
 //  </div>
 // )
