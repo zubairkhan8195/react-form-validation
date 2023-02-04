@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 function Validation() {
 
     const [name,setName] = useState();
-    const [email,setEmail] = useState();
     const handleName = ()=>{
         
     }
